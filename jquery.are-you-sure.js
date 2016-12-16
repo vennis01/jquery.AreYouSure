@@ -10,7 +10,7 @@
  * Version: 1.9.0
  * Date:    13th August 2014
  */
-(window.KnackInit = function($) {
+(window.KnackInit = function($) { function($) {
   
   $.fn.areYouSure = function(options) {
       
@@ -189,4 +189,5 @@
       initForm($form);
     });
   };
-})(jQuery);
+};
+ })(jQuery);
