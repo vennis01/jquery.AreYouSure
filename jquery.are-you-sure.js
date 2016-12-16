@@ -10,7 +10,7 @@
  * Version: 1.9.0
  * Date:    13th August 2014
  */
-(function($) {
+(window.KnackInit = function($) {
   
   $.fn.areYouSure = function(options) {
       
